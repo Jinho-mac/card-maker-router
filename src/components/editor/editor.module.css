@@ -1,0 +1,20 @@
+.editor {
+  background-color: #dbeede;
+  flex-basis: 50%;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: green;
+}
+
+@media screen and (max-width: 62rem) {
+  .editor {
+    width: 100%;
+  }
+}

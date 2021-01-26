@@ -1,0 +1,13 @@
+.button {
+  all: unset;
+  flex: 1 1 50%;
+  text-align: center;
+  background-color: #008891;
+  color: white;
+  padding: 0.2rem 0;
+}
+
+.button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}

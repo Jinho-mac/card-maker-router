@@ -1,0 +1,25 @@
+.header {
+  background-color: #008891;
+  text-align: center;
+  padding: 0.3rem;
+  position: relative;
+}
+
+.title {
+  color: white;
+}
+
+.logout {
+  all: unset;
+  position: absolute;
+  top: 0.3rem;
+  right: 0.3rem;
+  color: white;
+  font-weight: bold;
+}
+
+.logout:hover {
+  cursor: pointer;
+  color: #ffe6e6;
+}
+

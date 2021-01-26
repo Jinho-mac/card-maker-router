@@ -1,0 +1,50 @@
+.container {
+  flex: 1 1 50%;
+  background-color: #008891;
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  display: none;
+}
+
+.button {
+  all: unset;
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding: 0.2rem 0;
+}
+
+.button.exist {
+  background-color: #008891;
+}
+
+.button.nonExist {
+  background-color: #caccd1;
+}
+
+.button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.loading {
+  width: 1.3rem;
+  height: 1.3rem;
+  border: 0.2rem solid white;
+  border-top: 0.2rem solid #7ac143;
+  margin: auto;
+  border-radius: 1rem;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

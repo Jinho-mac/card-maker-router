@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-radius: 1rem;
+  margin: 0.5rem 2rem;
+  padding: 1rem 0;
+  box-shadow: 0.1rem 0.1rem 0.1rem gray;
+}
+
+.card.dark {
+  background: linear-gradient(to bottom, #bdc3c7, #2c3e50);
+}
+
+.card.light {
+  background: linear-gradient(to right, #e65c00, #f9d423);
+}
+
+.card.colorful {
+  background: linear-gradient(to right, #ff6e7f, #bfe9ff);
+}
+
+.card.gray {
+  background-color: #e3f2fd;
+}
+
+.avatar {
+  width: 6rem;
+  height: 6rem;
+  align-self: center;
+  position: relative;
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 3rem;
+}
+
+.info {
+  width: 65%;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.name,
+.company {
+  font-family: 'Staatliches', cursive;
+}
+
+.company::after {
+  content: " ";
+  display: block;
+  background-color: black;
+  width: 100%;
+  height: 0.1rem;
+  margin: 0.2rem 0;
+}
+
+.title,
+.email {
+  margin-bottom: 0.2rem;
+}
